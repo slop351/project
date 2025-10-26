@@ -29,3 +29,10 @@ https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104
 https://pandas.pydata.org/docs/
 https://numpy.org/doc/
 
+
+### Future Improvements
+- Add visualization of trip data using matplotlib.
+- Implement unit tests for data filtering functions.
+
+### License
+This project is licensed under the MIT License.
