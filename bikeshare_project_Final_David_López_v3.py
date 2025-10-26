@@ -8,6 +8,8 @@ CITY_DATA = {
     'washington': 'data/washington.csv'
 }
 
+#Data filters
+
 def get_filters():
     """
     Demana a l'usuari especificar ciutat, mes i dia per analitzar.
@@ -19,6 +21,8 @@ def get_filters():
 
     cities = list(CITY_DATA.keys())
 
+# User inputs
+
     while True:
         city = input("Enter city (chicago, new york city, washington): ").strip().lower()
         if city in cities:
@@ -29,6 +33,8 @@ def get_filters():
 
     months = ['all', 'january', 'february', 'march', 'april', 'may', 'june',
               'july', 'august', 'september', 'october', 'november', 'december']
+    
+
 
     while True:
         month = input("Enter month (all or name of the month): ").strip().lower()
@@ -83,6 +89,7 @@ def load_data(city, month, day):
     print(f"Number of records after filtering: {len(data_frame)}")
     return data_frame
 
+#Calculate Data
 
 def time_stats(data_frame):
     """Displays statistics on the most frequent travel times."""
