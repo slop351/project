@@ -51,6 +51,7 @@ def get_filters():
     print('-' * 40)
     return city, month, day
 
+#Loading city data 
 
 def load_data(city, month, day):
     """Loads data for the specified city and applies filters by month and day if needed."""
@@ -202,7 +203,7 @@ def display_raw_data(df):
         start_row += 5
         end_row += 5
 
-
+#Main Programm
 def main():
     while True:
         city, month, day = get_filters()
