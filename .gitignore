@@ -1,1 +1,11 @@
 .github/**
+
+# Exclude csv
+echo "*.csv" > .gitignore
+
+# Stage and commit
+git add .gitignore
+git commit -m "Add .gitignore to exclude CSV data files"
+git push origin master
+
+
