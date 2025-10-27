@@ -3,9 +3,14 @@
 # Exclude csv
 echo "*.csv" > .gitignore
 
+chicago.csv
+new_yor_city.csv
+washington.csv
+
+
 # Stage and commit
-git add .gitignore
-git commit -m "Add .gitignore to exclude CSV data files"
-git push origin master
+#git add .gitignore
+#git commit -m "Add .gitignore to exclude CSV data files"
+#git push origin master
 
 
